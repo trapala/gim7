@@ -45,8 +45,8 @@ public class WaterfallController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Enabling/disabling support with the Q key for the waterfall.
-        if (Input.GetKeyDown(KeyCode.Q))
+        // Enabling/disabling support with the Z key for the waterfall.
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             int newRateConstant = defaultRateConstant;
             if (thisEmission.rateOverTime.constant > 0)
